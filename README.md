@@ -79,12 +79,5 @@ The Raspberry Pi publishes sensor data to AWS IoT Core using MQTT. The data can 
 
 ## Security Notice
 
-AWS IoT certificate files and private keys must not be uploaded to GitHub.
+AWS IoT certificate files and private keys will not be uploaded to GitHub.
 
-Do not upload these files:
-
-```text
-certificate.pem.crt
-private.pem.key
-AmazonRootCA1.pem
-.env
